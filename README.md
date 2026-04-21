@@ -1,4 +1,3 @@
-# nfcs-financial-behavior-study
 # Robo-Advisor Capstone Project
 
 ## Overview
