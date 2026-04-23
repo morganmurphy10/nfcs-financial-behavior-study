@@ -1,25 +1,66 @@
-# Robo-Advisor Capstone Project
+# NFCS Financial Behavior Study: Robo-Advisors and Investor Decision-Making
 
 ## Overview
-This project analyzes the evolution of financial advisory services using FINRA NFCS data (2015–2024), focusing on robo-advisors, investor behavior, and bounded rationality.
+This repository contains Python code and analysis for an undergraduate honors capstone project examining how technology—specifically robo-advisors—has influenced investor behavior over time.
 
-## Models
-- Model 1: Demographic predictors of advisory type
-- Model 2: Planning Index by advisory type
-- Model 3: Bounded Rationality Index (BRI)
+Using FINRA’s National Financial Capability Study (NFCS) data from 2015, 2018, 2021, and 2024, this project analyzes trends in advisory usage and evaluates behavioral differences across investor types.
 
-## Data
-Data sourced from FINRA National Financial Capability Study (NFCS).
+---
 
-## Tools Used
-- Python (Pandas, NumPy)
-- Statistical analysis (Chi-square, OLS)
-- Data visualization
+## Research Focus
+This study explores three core questions:
 
-## Key Findings
-- Robo adoption driven by age, not knowledge
-- Robo users exhibit weaker planning behavior
-- Bounded rationality persists despite technology
+- How do demographic factors influence the adoption of robo-advisors?
+- Do robo-advisor users exhibit different financial planning behaviors?
+- Does technology reduce or reinforce bounded rationality in financial decision-making?
 
-## Author
-Morgan Murphy
+---
+
+## Models Used
+
+### Model 1: Demographic Predictors of Advisory Type
+- Logistic regression and chi-square tests
+- Examines how age, income, education, gender, and ethnicity influence advisory choice
+
+### Model 2: Planning (Preparedness) Index
+- Composite index using standardized (z-scored) variables
+- Measures structured financial planning behavior across advisory types
+
+### Model 3: Bounded Rationality Index (BRI)
+- Combines:
+  - Financial literacy
+  - Heuristic reliance
+  - Overconfidence gap
+- Evaluates whether behavioral biases persist with robo-advisor usage
+
+---
+
+## Data Source
+- FINRA National Financial Capability Study (NFCS)
+- Years used: 2015, 2018, 2021, 2024
+- Large-scale U.S. survey of financial behavior and literacy
+
+> Note: Data files are not included in this repository. Users must obtain NFCS data independently.
+
+---
+
+## Tools & Libraries
+- Python
+- pandas
+- numpy
+- scipy
+- statsmodels
+
+---
+
+## Key Insight
+Preliminary findings suggest that:
+- Robo-advisor adoption is strongly driven by age rather than financial knowledge
+- Robo users exhibit weaker structured planning behavior
+- Behavioral biases persist despite increased access to technology
+
+---
+
+Morgan Murphy  
+Westminster College (PA)  
+
