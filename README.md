@@ -1,9 +1,9 @@
 # NFCS Financial Behavior Study: Robo-Advisors and Investor Decision-Making
 
 ## Overview
-This repository contains Python code and analysis for an undergraduate honors capstone project examining how technology—specifically robo-advisors—has influenced investor behavior over time.
+This repository contains various data and code used for the quantitative analysis portion of my Honors thesis. This research examines how technology (the adoption of robo and hybrid advisors) has influenced investor behavior over time.
 
-Using FINRA’s National Financial Capability Study (NFCS) data from 2015, 2018, 2021, and 2024, this project analyzes trends in advisory usage and evaluates behavioral differences across investor types.
+Using FINRA’s National Financial Capability Study (NFCS) data from the 2015, 2018, 2021, and 2024 waves, this project analyzes trends in advisory usage and evaluates behavioral differences across investor types.
 
 ---
 
