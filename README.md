@@ -40,7 +40,6 @@ This study explores three core questions:
 - Years used: 2015, 2018, 2021, 2024
 - Large-scale U.S. survey of financial behavior and literacy
 
-> Note: Data files are not included in this repository. Users must obtain NFCS data independently.
 
 ---
 
